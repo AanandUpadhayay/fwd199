@@ -1,0 +1,112 @@
+header {
+	background-color: #0B2A5B; 
+	padding: 18px 50px;
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.logo {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+
+.login-button {
+	background-color: white;
+	color: #0B2A5B !important;
+	padding: 9px 20px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+
+.hero {
+	min-height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.hero-text {
+	max-width: 650px;
+}
+
+
+.hero h1 {
+	font-size: 55px;
+	color: #0B2A5B;
+	margin-bottom: 10px;
+}
+
+
+.hero h2 {
+	font-size: 25px;
+	font-weight: normal;
+	color: #243B64;
+}
+
+
+.hero p {
+	font-size: 18px;
+	color: #555;
+	line-height: 1.6;
+}
+
+
+.hero-login {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 12px 30px;
+	background-color: #0B2A5B;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.hero-login:hover {
+	background-color: #163D7A;
+}
+
+.why-hostelfix {
+    text-align: center;
+    padding: 50px;
+    background-color: #F3F6FA;
+}
+
+.why-hostelfix h2 {
+    color: #0B2A5B;
+    font-size: 30px;
+}
+
+.why-hostelfix ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-hostelfix li {
+    margin: 12px;
+    font-size: 17px;
+}
